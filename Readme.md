@@ -17,6 +17,9 @@ Enable Root Login via SSH In Ubuntu:
 https://www.liquidweb.com/kb/enable-root-login-via-ssh/
 
 
+Network solution:
+Weave - https://cloud.weave.works/k8s/net
+RABL - https://docs.projectcalico.org/v3.3/getting-started/kubernetes/installation/hosted/rbac-kdd.yaml
 
 https://stackoverflow.com/questions/72504257/i-encountered-when-executing-kubeadm-init-error-issue
 
