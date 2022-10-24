@@ -16,3 +16,7 @@ https://circuitcloud.in/setup-static-ip-on-virtualbox-ubuntu-server/
 Enable Root Login via SSH In Ubuntu:
 https://www.liquidweb.com/kb/enable-root-login-via-ssh/
 
+Before running - cluster-init.yaml
+Open the im /etc/containerd/config.toml file
+and comment out disabled_plugins = ["cri"]
+
