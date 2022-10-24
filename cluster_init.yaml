@@ -1,9 +1,9 @@
 ---
 - hosts: masters
-  remote_user: ansible
-  become: yes
-  become_method: sudo
-  become_user: root
+  remote_user: root
+#  become: yes
+#  become_method: sudo
+#  become_user: root
   gather_facts: yes
   connection: ssh
 
