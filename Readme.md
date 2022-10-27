@@ -1,6 +1,13 @@
 
-Links to help during setup:
---------------------------
+Setup:
+------
+
+1. sudo -s 
+2. cd ~
+3. Enable root login and pub-key authentication - edit .ssh/sshd_config file and set PermitRootLogin yes  and  PubkeyAuthentication yes
+4. Assign static IP to all the nodes in the file - /etc/netplan/00-...... and type 
+5. Create ssh keys  - ssh-keygen   
+6. copy the key to .ssh
 
 Ansible k8s setup:
 https://www.linuxsysadmins.com/install-kubernetes-cluster-with-ansible/
